@@ -19,7 +19,7 @@ Making that purchase leaves their balance crashing through their safety buffer i
 
 ---
 
-## 🧠 The Mathematical Core (Explained for Pitch Prep)
+## 🧠 The Mathematical Core 
 
 MARGIN's simulation engines (`forecastEngine.js` and `whatIfEngine.js`) are standalone, testable, and explainable to judges:
 
@@ -91,21 +91,6 @@ npm test
 
 ---
 
-## 🎭 60-Second Demo Pitch Script for Judges
-
-1. **The Hook (0:00 - 0:15)**:  
-   *"Judges, look at Aman's dashboard. He has ₹38,500 in his account. If he walks into a store and wants to buy these Sony XM5 headphones for ₹16,000, his banking app says 'Approved'. But is he actually safe?"*
-
-2. **The Simulation (0:15 - 0:35)**:  
-   *Click the 'Sony XM5 Headphones (₹16,000)' chip or type 'Can I buy headphones for 16k today?'.*  
-   *"Look at what MARGIN does. In 100 milliseconds, it runs a 45-day forecast. It flags a yellow BUFFER BREACH. Why? Because Rent of ₹18,000 is due in 3 days, and his buffer will drop to ₹1,400 — dangerously breaching his ₹10,000 emergency target."*
-
-3. **The Solution (0:35 - 0:50)**:  
-   *"MARGIN doesn't just say NO. It tells him: 'Wait 6 days until your salary arrives on the 1st, and you will stay 100% safe.' Notice the purple dashed line overlaid directly on the forecast chart."*
-
-4. **The Razorpay Finish (0:50 - 1:00)**:  
-   *Click 'Verify Razorpay Shield'.*  
-   *"Through our Razorpay Shield integration, MARGIN shields the user from overdraft and schedules a Razorpay Mandate for the safe date."*
 
 ---
 
