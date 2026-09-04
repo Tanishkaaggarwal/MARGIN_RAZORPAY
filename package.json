@@ -1,0 +1,10 @@
+{
+  "name": "margin-fintech-agent",
+  "version": "1.0.0",
+  "description": "MARGIN — AI-Powered Financial Safety Agent (Razorpay Buildathon)",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "test": "npm --prefix server test"
+  }
+}
