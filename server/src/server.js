@@ -8,7 +8,7 @@ import razorpayRoutes from './routes/razorpay.js';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5001;
+// const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors());
@@ -23,6 +23,4 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', service: 'MARGIN Financial Safety Agent', timestamp: new Date().toISOString() });
 });
 
-app.listen(PORT, () => {
-  console.log(`🚀 MARGIN Financial Safety Agent Server running on http://localhost:${PORT}`);
-});
+export default app;
