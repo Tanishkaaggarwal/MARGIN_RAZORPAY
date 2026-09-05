@@ -1,6 +1,6 @@
 // API client for MARGIN Backend
 
-const BASE_URL = '/api';
+const BASE_URL = 'https://margin-backend.vercel.app/api';
 
 export async function fetchUserData() {
   const res = await fetch(`${BASE_URL}/user`);
