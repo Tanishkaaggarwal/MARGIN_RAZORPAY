@@ -59,12 +59,12 @@ export function UpcomingBills({ user }) {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="text-xs font-bold text-white">{user?.incomeSource || 'Salary Credit'}</span>
+              <span className="text-xs font-bold text-white">{user?.incomeSource || 'Expected Income'}</span>
               <span className="text-[10px] px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 font-mono">
                 Credited on {salaryDay}st
               </span>
             </div>
-            <p className="text-[11px] text-slate-400">Processed automatically via RazorpayX Payroll</p>
+            <p className="text-[11px] text-slate-400">Expected monthly income credit</p>
           </div>
         </div>
         <span className="text-sm font-bold font-mono text-emerald-400">
